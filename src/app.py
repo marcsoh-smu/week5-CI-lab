@@ -5,4 +5,4 @@ app = flask.Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Welcome!!2!testing ",time.localtime
+    return "Welcome!!testing ",time.localtime
